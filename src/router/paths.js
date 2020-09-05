@@ -31,6 +31,10 @@ export default [
       {
         path: '',
         component: () => import(`@/components/LoginForm.vue`)
+      },
+      {
+        path: 'register',
+        component: () => import(`@/components/RegisterForm.vue`)
       }
     ]
   },

@@ -77,33 +77,18 @@ export default {
       },
       {
         to: '/dashboard/user-profile',
-        icon: 'mdi-account',
-        text: 'User Profile'
+        icon: 'mdi-settings',
+        text: 'Settings'
       },
       {
-        to: '/dashboard/table-list',
-        icon: 'mdi-clipboard-outline',
-        text: 'Table List'
+        to: '/dashboard/notifications',
+        icon: 'mdi-timeline',
+        text: 'Vitals'
       },
       {
-        to: '/dashboard/user-tables',
-        icon: 'mdi-table-edit',
-        text: 'Users Table'
-      },
-      {
-        to: '/dashboard/typography',
-        icon: 'mdi-format-font',
-        text: 'Typography'
-      },
-      {
-        to: '/dashboard/icons',
-        icon: 'mdi-chart-bubble',
-        text: 'Icons'
-      },
-      {
-        to: '/dashboard/maps',
-        icon: 'mdi-map-marker',
-        text: 'Maps'
+        to: '/dashboard/notifications',
+        icon: 'mdi-security',
+        text: 'Access control'
       },
       {
         to: '/dashboard/notifications',
