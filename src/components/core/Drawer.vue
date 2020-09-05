@@ -27,6 +27,7 @@
             <v-img
               :src="logo"
               height="64"
+
               contain
             />
           </v-list-tile-avatar>
@@ -67,7 +68,7 @@ import {
 
 export default {
   data: () => ({
-    logo: require('@/assets/img/icon.svg'),
+    logo: require('@/assets/img/vitals.png'),
     links: [
       {
         to: '/',
@@ -158,7 +159,7 @@ export default {
     }
 
     .v-image__image--contain {
-      top: 11px;
+      top: 15px;
       height: 60%;
 
     }
