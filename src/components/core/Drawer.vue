@@ -81,12 +81,12 @@ export default {
         text: 'Settings'
       },
       {
-        to: '/dashboard/notifications',
+        to: '/dashboard/vitals',
         icon: 'mdi-timeline',
         text: 'Vitals'
       },
       {
-        to: '/dashboard/notifications',
+        to: '/dashboard/controls',
         icon: 'mdi-security',
         text: 'Access control'
       },
